@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  height: 661;/*auto */
+  max-width: 1707 px; /* Replace with your desired canvas width */
+  display: block;
+  margin: 0 auto;
+  
+  /* scroll bar */
+  position: fixed; 
+  top :0;
+  left :0;
+  outline: none;
+}
